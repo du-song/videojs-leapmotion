@@ -6,13 +6,13 @@ Using the Plugin
 ----------------
 Add the following to head (leap.js is from official SDK)
 
-  <link href="videojs.leapmotion.css" rel="stylesheet" />
-  <script src="leap.js"></script>
-  <script src="videojs.leapmotion.js"></script>
+    <link href="videojs.leapmotion.css" rel="stylesheet" />
+    <script src="leap.js"></script>
+    <script src="videojs.leapmotion.js"></script>
 
 and body (to activate the plugin)
 
-  <script>videojs('your_video_element_id').LeapMotionPlugin();</script>
+    <script>videojs('your_video_element_id').LeapMotionPlugin();</script>
 
 Supported gestures:
 
