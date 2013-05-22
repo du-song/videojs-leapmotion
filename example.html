@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <title>Leap Motion for VideoJS Plugin Example</title>
+  <link href="http://vjs.zencdn.net/4.0/video-js.css" rel="stylesheet" />
+  <script src="http://vjs.zencdn.net/4.0/video.js"></script>
+
+  <link href="videojs.leapmotion.css" rel="stylesheet" />
+  <script src="leap.js"></script>
+  <script src="videojs.leapmotion.js"></script>
+</head>
+<body style="background:black">
+<video id="video_element_id" class="video-js vjs-default-skin" controls
+  preload="auto" width="640" height="264" poster="http://video-js.zencoder.com/oceans-clip.jpg" src="http://video-js.zencoder.com/oceans-clip.mp4"
+  data-setup="{}">
+</video>
+<script>
+videojs('video_element_id').LeapMotionPlugin();
+</script>
+</body>
+</html>
