@@ -1,6 +1,6 @@
 Leap Motion plugin for Video.js
 ===============================
-A plugin that let you control video playback with [Leap Motion](http://www.leapmotion.com).
+A [Video.JS](https://github.com/videojs/video.js/) plugin that let you control video playback with [Leap Motion](http://www.leapmotion.com).
 
 Using the Plugin
 ----------------
